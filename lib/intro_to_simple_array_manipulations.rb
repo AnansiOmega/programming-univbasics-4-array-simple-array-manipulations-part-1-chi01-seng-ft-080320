@@ -11,7 +11,8 @@ def using_pop(array)
 end
 
 def pop_with_args(array,times)
-  for 
+  for times in array do
+    array.pop
 
 end
 
