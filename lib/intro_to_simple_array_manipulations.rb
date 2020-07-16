@@ -15,7 +15,7 @@ end
 def pop_with_args(array,times)
   for times in array do
     array.pop
-
+  end
 end
 
 def using_shift(array)
