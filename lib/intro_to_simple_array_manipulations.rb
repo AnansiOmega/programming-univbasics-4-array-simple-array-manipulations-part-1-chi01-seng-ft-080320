@@ -7,7 +7,7 @@ end
 def using_unshift(array, string)
   array.unshift(string)
 end
-binding.pry
+
 def using_pop(array)
   array.pop
 end
@@ -17,7 +17,7 @@ def pop_with_args(array,times)
     array.pop
   end
 end
-
+binding.pry
 def using_shift(array)
   array.shift 
 end
