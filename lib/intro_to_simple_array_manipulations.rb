@@ -7,11 +7,11 @@ end
 def using_unshift(array, string)
   array.unshift(string)
 end
-
+binding.pry
 def using_pop(array)
   array.pop
 end
-binding.pry 
+
 def pop_with_args(array,times)
   for times in array do
     array.pop
