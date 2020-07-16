@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def using_push(array, string)
   array.push(string)
@@ -17,7 +17,7 @@ def pop_with_args(array,times)
     array.pop
   end
 end
-binding.pry
+
 def using_shift(array)
   array.shift 
 end
